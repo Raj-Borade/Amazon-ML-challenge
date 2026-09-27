@@ -1,0 +1,11 @@
+{
+  "n_train": 1238,
+  "n_validation": 394,
+  "threshold": 0.05,
+  "pair_f05": 0.9810126582278481,
+  "precision": 1.0,
+  "recall": 0.9117647058823529,
+  "tp": 31,
+  "fp": 0,
+  "fn": 3
+}

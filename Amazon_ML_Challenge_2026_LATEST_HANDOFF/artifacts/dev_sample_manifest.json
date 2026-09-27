@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "n_target": 30000,
+  "n_sampled": 30000,
+  "source_ground_truth_rows": 2206821,
+  "bucket_report": {
+    "0": {
+      "population": 123247,
+      "sampled": 1675
+    },
+    "1": {
+      "population": 119157,
+      "sampled": 1620
+    },
+    "10+": {
+      "population": 571,
+      "sampled": 8
+    },
+    "2": {
+      "population": 375212,
+      "sampled": 5101
+    },
+    "3": {
+      "population": 530841,
+      "sampled": 7216
+    },
+    "4": {
+      "population": 484115,
+      "sampled": 6581
+    },
+    "5": {
+      "population": 321957,
+      "sampled": 4377
+    },
+    "6": {
+      "population": 164868,
+      "sampled": 2241
+    },
+    "7": {
+      "population": 63968,
+      "sampled": 870
+    },
+    "8": {
+      "population": 18680,
+      "sampled": 254
+    },
+    "9": {
+      "population": 4205,
+      "sampled": 57
+    }
+  },
+  "n_true_s2_ids": 50299,
+  "n_true_s3_ids": 53541,
+  "n_zero_match_entities": 1675,
+  "sample_ground_truth_path": "dev_sample_ground_truth.tsv"
+}

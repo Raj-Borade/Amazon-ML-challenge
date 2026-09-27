@@ -1,0 +1,12 @@
+{
+  "micro_recall": 0.9381,
+  "macro_recall": 0.9379,
+  "avg_candidates": 2397.2,
+  "median_candidates": 2189.0,
+  "p90_candidates": 4769,
+  "p95_candidates": 5636,
+  "p99_candidates": 7409,
+  "max_candidates": 12682,
+  "elapsed_sec": 240.2,
+  "n_entities": 30000
+}

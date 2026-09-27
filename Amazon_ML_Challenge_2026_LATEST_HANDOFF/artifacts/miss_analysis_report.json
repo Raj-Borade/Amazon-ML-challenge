@@ -1,0 +1,98 @@
+{
+  "n_classified": 500,
+  "table": [
+    {
+      "reason": "legal_suffix_variation",
+      "missed_true_pairs_in_sample": 111,
+      "pct_of_sample": 22.2
+    },
+    {
+      "reason": "other",
+      "missed_true_pairs_in_sample": 94,
+      "pct_of_sample": 18.8
+    },
+    {
+      "reason": "transliteration_script_variation",
+      "missed_true_pairs_in_sample": 82,
+      "pct_of_sample": 16.4
+    },
+    {
+      "reason": "name_typo_or_char_noise",
+      "missed_true_pairs_in_sample": 79,
+      "pct_of_sample": 15.8
+    },
+    {
+      "reason": "missing_address",
+      "missed_true_pairs_in_sample": 62,
+      "pct_of_sample": 12.4
+    },
+    {
+      "reason": "domain_style_name",
+      "missed_true_pairs_in_sample": 50,
+      "pct_of_sample": 10.0
+    },
+    {
+      "reason": "name_variation_address_agrees",
+      "missed_true_pairs_in_sample": 22,
+      "pct_of_sample": 4.4
+    }
+  ],
+  "examples": {
+    "transliteration_script_variation": {
+      "s1_id": "S1-319115221",
+      "s1_name": "Life International Private Limited",
+      "s1_addr": "Plot No 22/1, Chandulal Bowli, Sikhvillage, Secunderabad, Hyderabad, Telangana",
+      "target_id": "S3-427446097",
+      "target_name": "లైఫ్ ఇంటర్నేషనల్ ప్రైవేట్ లిమిటెడ్",
+      "target_addr": "Plot No 2/1, Hyderabad, TG"
+    },
+    "domain_style_name": {
+      "s1_id": "S1-670990498",
+      "s1_name": "Bambi Obriant, L.C.S.W.",
+      "s1_addr": "1919 Jackson Avenue, OK, Unit APARTMENT  35G, Tulsa",
+      "target_id": "S3-45151632",
+      "target_name": "bambiobriantlcsw.com",
+      "target_addr": "1919 Jackson Avenue, null, Tulsa, Oklahoma"
+    },
+    "other": {
+      "s1_id": "S1-546057041",
+      "s1_name": "Physical Therapy Best Physicians",
+      "s1_addr": "79 Cottage Street, Unit 2, Boston, MA",
+      "target_id": "S2-576529324",
+      "target_name": "Physical Therapy Physicians Services",
+      "target_addr": "79 COTTAGE ST, BOSTON, MA"
+    },
+    "legal_suffix_variation": {
+      "s1_id": "S1-863266465",
+      "s1_name": "Coastal Living LP",
+      "s1_addr": "Litchfield Park, 13338 Maryland Avenue, AZ",
+      "target_id": "S3-586893979",
+      "target_name": "*** Coastal Living Inc",
+      "target_addr": "Maryland Ave, Litchfield Park, Arizona"
+    },
+    "missing_address": {
+      "s1_id": "S1-224609458",
+      "s1_name": "Empire Elite Transport Inc.",
+      "s1_addr": "11989 Trail Road, Crescent, OK",
+      "target_id": "S2-804466282",
+      "target_name": "Empire Elite Transprdort Transprdort Inc.",
+      "target_addr": NaN
+    },
+    "name_typo_or_char_noise": {
+      "s1_id": "S1-273235358",
+      "s1_name": "Atlantic Brown PC",
+      "s1_addr": "KY, Sacramento, 385 Lynn City Road",
+      "target_id": "S2-507769716",
+      "target_name": "ATLANTIC BROWN",
+      "target_addr": "385-387 LYNN CITY RD, PMB 2962, SACRAMENTO, KY"
+    },
+    "name_variation_address_agrees": {
+      "s1_id": "S1-684486769",
+      "s1_name": "Easterling and Yi Scuti Inc.",
+      "s1_addr": "3300 Capital Center Drive, Unit 199, Rancho Cordova, CA",
+      "target_id": "S3-638250401",
+      "target_name": "@easterlingyi",
+      "target_addr": "3300 Capital Center Dr, Unit 199, Rancho Cordova, California"
+    }
+  }
+}
